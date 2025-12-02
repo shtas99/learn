@@ -1,4 +1,5 @@
 # learn
-В этом репозитории находится с решением задач из курса обучения программированию на python.
+Этот репозиторий содержит мои решения обучающих задач по программированию на языке python. 
 
-This repository contains solutions to the lessons from the Python programming course.
+
+This repository contains my solutions to programming exercises in the Python language.
