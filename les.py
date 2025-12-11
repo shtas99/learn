@@ -12,3 +12,12 @@
 # Input format: A natural number n is given as input.
 # Output format: The program should display a graphical representation of the numbers from 1 to n,
 # each on a separate line.
+
+
+n = int(input())
+for x in range (1, n+1):
+    count = 0
+    for i in range (1, x+1):
+        if x % i == 0:
+            count += 1
+    print(f"{x} {'+' * count}")
