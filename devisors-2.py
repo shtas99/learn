@@ -21,7 +21,7 @@ resolt_num =0
 
 for current_num in range (a, b + 1):    # Перибираем все числа в указанном диапазоне
     current_sum = 0
-    for divisor in range (1, x+1):      # Ищем делители
+    for divisor in range (1, current_num+1):      # Ищем делители
         if current_num % divisor == 0:
             current_sum += divisor      # Сумма делителей для текущего числа ()
     if current_sum >= max_sum:          # проверим необходимость обновить счетчик суммы делителей и число
